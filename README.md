@@ -1,9 +1,6 @@
 # Th-or-me-P-NP-Preuves-pratiques-et-intuition
 Théorème : P ≠ NP – Preuves pratiques et intuition
 
-
-Théorème : P ≠ NP – Preuves pratiques et intuition
-
 1️⃣ Énoncé du théorème
 
 Théorème : P ≠ NP
