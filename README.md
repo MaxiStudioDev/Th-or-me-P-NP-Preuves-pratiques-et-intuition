@@ -1,21 +1,21 @@
 # Th-or-me-P-NP-Preuves-pratiques-et-intuition
 Théorème : P ≠ NP – Preuves pratiques et intuition
 
-1️⃣ Énoncé du théorème
+1 Énoncé du théorème
 
 Théorème : P ≠ NP
 
 Certains problèmes sont faciles à vérifier si l’on connaît la solution, mais restent difficiles ou longs à résoudre sans aide algorithmique connue.
 
-⚠️ Note : Ce document illustre une intuition et des preuves pratiques. Ce n’est pas une preuve formelle universelle. Pour qu’une preuve officielle soit reconnue, il faudrait démontrer mathématiquement que tous les problèmes NP-complets ne peuvent pas être résolus en temps polynomial, et cela doit être validé par la communauté scientifique.
+⚠ Note : Ce document illustre une intuition et des preuves pratiques. Ce n’est pas une preuve formelle universelle. Pour qu’une preuve officielle soit reconnue, il faudrait démontrer mathématiquement que tous les problèmes NP-complets ne peuvent pas être résolus en temps polynomial, et cela doit être validé par la communauté scientifique.
 
-ℹ️ Note personnelle : Je suis un enfant de 13 ans et j’essaie de faire ça. Il peut y avoir quelques fautes d’écriture, mais je voulais partager mon intuition et mes idées avec tout le monde.
-
-
+🔶 Note personnelle : Je suis un enfant de 13 ans et j’essaie de faire ça. Il peut y avoir quelques fautes d’écriture, mais je voulais partager mon intuition et mes idées avec tout le monde.
 
 
 
-2️⃣ Définitions importantes
+
+
+2 Définitions importantes
 
 Classe P (Polynomial) : problèmes qu’on peut résoudre rapidement (en temps polynomial).
 
@@ -31,7 +31,7 @@ Question P vs NP : Est-ce que tous les problèmes dont la solution est facile à
 
 
 
-3️⃣ Raisonnement
+3 Raisonnement
 
 Les problèmes NP-complets (Sudoku, TSP) peuvent être vérifiés rapidement si la solution est donnée.
 
@@ -43,9 +43,9 @@ L’intuition pour P ≠ NP : la différence vient des problèmes NP-complets, p
 
 
 
-4️⃣ Preuves pratiques (tableau)
+4 Preuves pratiques (tableau)
 
-ProblèmeSolution donnéeT_verif (étapes)T_res (étapes)Intuition P ≠ NPSudoku 4x4Solution valide416 (force brute)✅Sudoku 9x9Solution valide99^81 (force brute)✅TSP 4 villesChemin = 100124 (toutes permutations)✅TSP 5 villesChemin = 2501120 (toutes permutations)✅
+ProblèmeSolution donnéeT_verif (étapes)T_res (étapes)Intuition P ≠ NPSudoku 4x4Solution valide416 (force brute) ✔ Sudoku 9x9Solution valide99^81 (force brute) ✔ TSP 4 villesChemin = 100124 (toutes permutations) ✔ TSP 5 villesChemin = 2501120 (toutes permutations) ✔ 
 
 Analyse :
 
@@ -61,7 +61,7 @@ Cela illustre pourquoi P ≠ NP est intuitivement plausible.
 
 
 
-5️⃣ Conclusion
+5 Conclusion
 
 Les calculs et exemples montrent que vérifier une solution est facile, mais trouver la solution sans aide algorithmique est beaucoup plus long.
 
